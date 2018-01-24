@@ -280,7 +280,7 @@ fieldset#but {
 								<fieldset id="Fixedspend">
 									<ul>
 										<li><label for="날짜선택">날 짜</label> <input type="text"
-											id="datepicker3" placeholder="날짜선택: 년-월-일"
+											id="datepicker5" placeholder="날짜선택: 년-월-일"
 											style="text-align: center;" name="nal"></li>
 
 										<li><label for="자릿세">자릿세</label> <input type="number"
@@ -310,7 +310,7 @@ fieldset#but {
 								<fieldset id="ticket">
 									<ul>
 										<li><label for="날짜선택">날 짜</label> <input type="text"
-											id="datepicker1" placeholder="날짜선택: 년-월-일"
+											id="datepicker6" placeholder="날짜선택: 년-월-일"
 											style="text-align: center;" name="nal"></li>
 
 										<li><label for="할인1">일 반</label> <input type="number"
@@ -356,7 +356,7 @@ fieldset#but {
 								<fieldset id="market">
 									<ul>
 										<li><label for="날짜선택">날 짜</label> <input type="text"
-											id="datepicker2" placeholder="날짜선택: 년-월-일"
+											id="datepicker7" placeholder="날짜선택: 년-월-일"
 											style="text-align: center;" name="nal" required="required">
 										</li>
 										<li><label for="팝콘">팝콘</label> <input type="number"
@@ -490,21 +490,21 @@ fieldset#but {
 	<!-- =============날짜============== -->
 	<script>
 			$(function() {
-  				$( "#datepicker1" ).datepicker({
+  				$( "#datepicker5" ).datepicker({
     				dateFormat: 'yy-mm-dd'
  				 });
 			});
 		</script>
 	<script>
 			$(function() {
-  				$( "#datepicker2" ).datepicker({
+  				$( "#datepicker6" ).datepicker({
     				dateFormat: 'yy-mm-dd'
  				 });
 			});
 		</script>
 	<script>
 			$(function() {
-  				$( "#datepicker3" ).datepicker({
+  				$( "#datepicker7" ).datepicker({
     				dateFormat: 'yy-mm-dd'
  				 });
 			});

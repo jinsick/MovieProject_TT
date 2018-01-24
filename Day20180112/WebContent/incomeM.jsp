@@ -115,7 +115,7 @@ fieldset#valuesIncome {
 }
 
 #datepicker1, #datepicker2 {
-	width: 150px;
+	width: 20%;
 }
 
 fieldset#incomeM_all{
@@ -128,7 +128,7 @@ fieldset#incomeM_all{
 	/* border: 3px solid blue; */		 
 	float: right;
 	z-index: 9999;
-	margin-right: 0.7%;
+	margin-right: 1%;
 		}
 
 fieldset#values1 {
@@ -144,7 +144,7 @@ fieldset#values1 {
 fieldset#but {
 	background-color: hsl(0, 0%, 47%);
 	border-radius: 7px;
-	width: 98.5%;
+	width: 100%;
 	margin-bottom: 0.5%;
 	height: 450px;
 	/* border: 3px solid green; */

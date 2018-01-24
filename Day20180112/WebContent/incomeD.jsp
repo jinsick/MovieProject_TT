@@ -116,7 +116,7 @@ fieldset#valuesIncome {
 }
 
 #datepicker3, #datepicker4 {
-	width: 50%;
+	width: 20%;
 }
 
 fieldset#incomeD_all{
@@ -130,7 +130,7 @@ fieldset#incomeD_all{
 	/* border: 3px solid blue; */		 
 	float: right;
 	z-index: 9999;
-	margin-right: 2%;
+	margin-right: 1%;
 		}
 
 fieldset#values2 {
@@ -140,14 +140,14 @@ fieldset#values2 {
 	width: 56%;
 	margin-bottom: 0.5%;
 	z-index: 9999;
-	line-height: 54px;
+	line-height: 66px;
 	margin-top: -1px;
 }
 
 fieldset#but {
 	background-color: hsl(0, 0%, 47%);
 	border-radius: 7px;
-	width: 98.5%;
+	width: 100;
 	margin-bottom: 0.5%;
 	height: 450px;
 	/* border: 3px solid green; *
@@ -172,8 +172,8 @@ fieldset#but {
 
 				<li>
 				<label for="날짜선택">날 짜</label> 
-				<input type="text" id="datepicker3" placeholder="Start: 년-월-일" style=" text-align: center;" name="nal1" required="required" >
-				~ <input type="text" id="datepicker4" placeholder="End: 년-월-일" style=" text-align: center;" name="nal2" required="required" >
+				<input type="text" id="datepicker3" placeholder="Start: 년-월-일" style=" text-align: center;" name="nal3" required="required" >
+				~ <input type="text" id="datepicker4" placeholder="End: 년-월-일" style=" text-align: center;" name="nal4" required="required" >
 				<input type="submit" value="호출하기">
 				</li>
 									
